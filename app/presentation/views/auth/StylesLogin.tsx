@@ -1,4 +1,5 @@
 import {StyleSheet} from "react-native";
+import {AppColors} from "../../Theme/AppTheme";
 
 const styles = StyleSheet.create({
   container: {
@@ -12,7 +13,7 @@ const styles = StyleSheet.create({
   titulo:{
     paddingTop:30,
     textAlign: "center",
-    color: "white",
+    color: AppColors.secondary,
     fontSize:18,
     fontWeight:"bold",
     fontFamily:"Helvetica",
@@ -40,8 +41,8 @@ const styles = StyleSheet.create({
     marginBottom:15,
     borderBottomWidth:1,
     paddingBottom: 9,
-    color:"#242424",
-    borderBottomColor:"#242424"
+    color: AppColors.secondary,
+    borderBottomColor: AppColors.secondary
 
   },
 
@@ -56,17 +57,15 @@ const styles = StyleSheet.create({
     paddingHorizontal:10,
     borderRadius:15,
   },
-  buttonForm:{
+
+  buttonRegist:{
     backgroundColor:"#7f1616",
+    marginTop: 9,
     paddingVertical:9,
     paddingHorizontal:20,
     borderRadius:5,
   },
-  buttonFormText:{
-    color:"#fff",
-    textAlign:"center",
-    fontSize:16,
-  }
+
 });
 
 
